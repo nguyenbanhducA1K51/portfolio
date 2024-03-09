@@ -1177,3 +1177,20 @@ img {
     bottom: -4.5rem;
   }
 }
+
+
+/* Certification */
+.cert-ul{
+  margin-top: 30px;
+  display: flex;
+    justify-content: center;
+    /* Horizontally center items */
+    align-items: center;
+    /* Vertically center items */
+    list-style: none;
+}
+.cert-text{
+ cursor: pointer;
+  color: aliceblue;
+  text-decoration: none
+}
