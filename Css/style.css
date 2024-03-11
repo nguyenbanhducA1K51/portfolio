@@ -1191,6 +1191,6 @@ img {
 }
 .cert-text{
  cursor: pointer;
-  color: aliceblue;
+  color: var(--text-color);
   text-decoration: none
 }
