@@ -59,6 +59,33 @@
   }
 }
 
+.publication-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  /* margin: 0; Remove default margin */
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.publication-list li {
+  padding: 10px 0; /* Add vertical spacing between items */
+  margin: 0; /* Ensure no extra margins */
+  line-height: 1.6; /* Improve readability */
+  font-size: 1rem; /* Set a standard font size */
+}
+
+.publication-list a {
+  color: #0066cc; /* Set link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.publication-list a:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
+
 /* dark color scheme  */
 body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 30%, 8%);
